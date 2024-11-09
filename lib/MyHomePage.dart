@@ -43,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
       );
     } else {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text("Authentication failed. Access denied.")),
+        const SnackBar(content: Text("Access denied. Authentication failed. ")),
       );
     }
   }
