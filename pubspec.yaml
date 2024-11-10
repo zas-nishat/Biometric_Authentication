@@ -44,6 +44,10 @@ dependencies:
   flutter_polyline_points: ^2.1.0
   google_maps_widget: ^1.0.5+1
 
+  firebase_core:
+  google_sign_in: ^6.2.2
+  firebase_auth: ^5.3.2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

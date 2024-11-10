@@ -1,6 +1,9 @@
-1. Biometric Authentication
-2. Google Map
-3. Google Map Current Location ( Road,Area, Division, Country )
+List of Features:
+1. Biometric Authentication.
+2. Google Map.
+3. Google Map Current Location ( Road,Area, Division, Country ).
+4. Firebase Added. (Update minSdkVersion to 23)
+5. Login with Google Added.
 
 Biometric Authentication Tutorial:
 1. App/src/main/kotlin/com/example/biometric_auth/MainActivity.kt :
