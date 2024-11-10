@@ -1,24 +1,15 @@
-# biometric_auth
+1. Biometric Authentication
+2. Google Map
+3. Google Map Current Location ( Road,Area, Division, Country )
 
-A new Flutter project.
+Biometric Authentication Tutorial:
+1. App/src/main/kotlin/com/example/biometric_auth/MainActivity.kt :
+   Add lines from local_auth package.
+2. AndroidManifest.xml:
+   Add biometric permission. 
+3. Write Authentication code.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-
-Tutorial:
-1. app/src/main/kotlin/com/example/biometric_auth/MainActivity.kt :
-add lines from local_auth package.
-2. AndroidManifest.xml :
-add biometric permission. 
-3. write authentication code.
+Google Map Tutorial:
+1. App/src/main/AndroidManifest.xml
+   Add permissions
+2. Write Location code.

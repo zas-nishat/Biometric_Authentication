@@ -1,9 +1,10 @@
+import 'package:biometric_auth/Google%20Map/GHome.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:local_auth/local_auth.dart';
 import 'package:flutter/services.dart'; // Import for SystemNavigator
 
-import 'Biometric Auth Service.dart';
+import 'Services/Biometric Auth Service.dart';
 import 'Second Page for Biometric Test.dart';
 import 'SplashScreen.dart';
 
@@ -66,10 +67,8 @@ class _MyHomePageState extends State<MyHomePage> {
         ],
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () async {
-          setState(() {
-            _showBalance = !_showBalance;
-          });
+        onPressed: () {
+          Get.to(GHomePage());
         },
         child: Icon(
           _showBalance ? Icons.lock_clock_outlined : Icons.fingerprint,
